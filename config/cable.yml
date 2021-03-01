@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
-  channel_prefix: protospace_テックマスターのuser_id_production
+  channel_prefix: protospace-34381_production
